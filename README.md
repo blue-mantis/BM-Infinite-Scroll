@@ -32,7 +32,7 @@ You can also pass any of the additional optional parameters also, like so:
 
 `{{ paginate|infinitescroll(containerSelector="#container", itemSelector="article.item", finishedMessage="So Long, and Thanks for All the Fish") }}`
 
-Here is a more in depth exmaple, showing the instantiation of pagination on an entry channel and the integration of infinite scrolling:
+Here is a more in depth example, showing the instantiation of pagination on an entry channel and the integration of infinite scrolling:
 
     {% set entries = craft.entries.section('news').limit(1).order('postDate desc') %}
 
