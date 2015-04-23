@@ -28,7 +28,7 @@ Pass the paginate variable to the custom twig method `infinitescroll`, and speci
 
 `{{ paginate|infinitescroll(containerSelector="#container", itemSelector="article.item") }}`
 
-You can also pass any of the additional optional parameters also, like so:
+You can also pass any of the additional optional parameters, like so:
 
 `{{ paginate|infinitescroll(containerSelector="#container", itemSelector="article.item", finishedMessage="So Long, and Thanks for All the Fish") }}`
 
