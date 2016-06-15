@@ -11,7 +11,7 @@ class InfiniteScrollPlugin extends BasePlugin
 
 	function getVersion()
 	{
-		return '1.0';
+		return '1.1.0';
 	}
 
 	function getDeveloper()
@@ -22,6 +22,14 @@ class InfiniteScrollPlugin extends BasePlugin
 	function getDeveloperUrl()
 	{
 		return 'http://bluemantis.com';
+	}
+
+	/**
+	 * @return string
+	 */
+	public function getDocumentationUrl()
+	{
+		return 'https://github.com/blue-mantis/BM-Infinite-Scroll';
 	}
 
 	/**
