@@ -20,7 +20,7 @@ There are several parameters you can use to control how the infinite scroll plug
 
 ## User Guide
 
-###1. Add infinite scrolling to your template
+### 1. Add infinite scrolling to your template
 
 **The plugin requires jquery, so you must ensure that this library is loaded in order for infinite scrolling to work!**
 
